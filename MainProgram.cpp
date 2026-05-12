@@ -200,7 +200,7 @@ double Truck::getPayloadTons() const{
 // TODO: Implement describe()
 string Truck::describe(){
     ostringstream oss;
-    oss << "Car: " << make << " (" << year << "), "
+    oss << "Truck: " << make << " (" << year << "), "
         << payloadTons << " tons, fuel: " << fuelLevel << "%";
     return oss.str();
 }
